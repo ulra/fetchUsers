@@ -1,4 +1,4 @@
-# Título del Proyecto
+# Aplicacion de perfil de usuarios
 
 _La aplicación es una aplicación web desarrollada utilizando el framework Next.js y conectándose a la API de Reqres para obtener datos de usuarios. La aplicación muestra una lista de 12 usuarios, divididos en páginas, con la posibilidad de navegar entre ellas mediante una barra de paginación._
 
