@@ -11,7 +11,8 @@ const Card = (props) => {
         <div className="containe">
             <div className="row">
             {props.users.map(user => (
-               <div  key={user.id} className="card mb-3 m-2 mx-auto" >
+               <div className="col-sm-12 col-md-4 ">
+               <div className="card mb-3 m-2 mx-auto"  key={user.id}>
   <h5 className="card-header">{user.first_name} {user.last_name}</h5>
   <div className="card-body">
   </div>
@@ -27,6 +28,8 @@ const Card = (props) => {
   </div>
   
 </div>
+               </div>
+
             ))}
         </div>
         </div>
