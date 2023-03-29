@@ -13,7 +13,7 @@ export default async function Perfil ({ params }) {
 
     return (
         <div className="container mt-2" key={user.id}>
-                    <Image className="mx-auto" src={userData.avatar} width={150} height={150} style={{borderRadius:'50%'}}/>
+                    <Image className="mx-auto" src={userData.avatar} width={150} height={150} style={{borderRadius:'50%'}} alt={userData.first_name}/>
                     <h3>{userData.first_name} {userData.last_name}</h3>
                     <h6><b>Email:</b> {userData.email}</h6>
                     <div class="card border-dark mb-3" style={{width:'100%'}}>
