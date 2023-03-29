@@ -250,6 +250,10 @@
   }
 }
 
+.card-user {
+  width: 30%;
+}
+
 @media (prefers-color-scheme: dark) {
   .vercelLogo {
     filter: invert(1);

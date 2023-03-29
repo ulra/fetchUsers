@@ -1,38 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Título del Proyecto
 
-## Getting Started
+_La aplicación es una aplicación web desarrollada utilizando el framework Next.js y conectándose a la API de Reqres para obtener datos de usuarios. La aplicación muestra una lista de 12 usuarios, divididos en páginas, con la posibilidad de navegar entre ellas mediante una barra de paginación._
 
-First, run the development server:
+_Cada usuario se muestra en una tarjeta, que contiene su imagen, nombre, apellido y correo electrónico. Al hacer clic en cualquier usuario, se accede a su perfil personal, que muestra su información detallada._
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+_La aplicación utiliza rutas dinámicas para generar las páginas de cada usuario de manera dinámica y permitir una navegación más fácil y rápida._
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+_En general, esta aplicación es una herramienta útil para ver y buscar usuarios de la API de Reqres, y proporciona una experiencia de usuario fluida y agradable a través del uso de Next.js._
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Construido con 🛠️
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+_La aplicación es una plataforma web hecha con Next.js que se conecta a la API pública de Reqres. Los usuarios se muestran en una interfaz limpia y moderna utilizando Bootstrap._
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* [Next.Js](https://nextjs.org/) - El framework web usado
+* [Bootstrap](https://getbootstrap.com/) - Manejador de estilos
+* [ReqRes](https://reqres.in/) - Api que suministro los datos
